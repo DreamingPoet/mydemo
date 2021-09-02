@@ -1,0 +1,37 @@
+# ---------------[ UE4 generated ]------------------ #
+/Binaries
+/DerivedDataCache
+/Intermediate
+/Saved
+/Build/WindowsNoEditor
+
+# ----[ Visual Studio ]------- #
+*.vs
+*.svd
+*.pidb
+*.suo
+*.sln
+ *.opendb
+ *.sdf
+
+# -------------[ OS generated ]------------------------ #
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+Config/steamvr_ue_editor_app.json
+Config/SteamVRBindings/
+
+# -------------[ Plugins ]------------------------ #
+
+Plugins/HttpLibrary/Binaries/
+Plugins/HttpLibrary/Intermediate/
+
+Plugins/JsonLibrary/Binaries/
+Plugins/JsonLibrary/Intermediate/
+
+
+
+# -------------[ Pack ]------------------------ #
+
+WindowsNoEditor
