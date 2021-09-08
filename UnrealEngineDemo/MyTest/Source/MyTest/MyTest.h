@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+О╩©// Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
 
@@ -7,17 +7,18 @@
 DECLARE_LOG_CATEGORY_EXTERN(LogMyTest, Log, All);
 
 
-//й╧сц╥╫й╫╡н©╪ё╨  DEBUG_MSG("loaded the file '%s'.", *projectPath)ё╩
-//LOG ╢З╠М╩Аотй╬тзLogжп
-//SCREEN ╢З╠М╩Аотй╬тзфад╩ио
-//MSG ╢З╠М╟ви╚╣дм╗ж╙пео╒
-//DEBUG ╢З╠МDEBUG льйБпео╒сц╣дгЮи╚пео╒
-//WARNING ╢З╠М╩фи╚╬╞╦Фпео╒
-//ERROR ╢З╠М╨Ли╚╢МнСпео╒
+//Д╫©Г■╗Ф√╧Е╪▐Е▐┌Х─┐О╪   DEBUG_MSG("loaded the file '%s'.", *projectPath)О╪⌡
+//LOG Д╩ёХ║╗Д╪ Ф≤╬Г╓╨Е°╗LogД╦╜
+//SCREEN Д╩ёХ║╗Д╪ Ф≤╬Г╓╨Е°╗Е╠▐Е╧∙Д╦┼
+//MSG Д╩ёХ║╗Г≥╫Х┴╡Г └И─ Г÷╔Д©║Ф│╞
+//DEBUG Д╩ёХ║╗DEBUG Г┴╧Ф╝┼Д©║Ф│╞Г■╗Г └И²▓Х┴╡Д©║Ф│╞
+//WARNING Д╩ёХ║╗И╩└Х┴╡Х╜╕Е▒┼Д©║Ф│╞
+//ERROR Д╩ёХ║╗Г╨╒Х┴╡И■≥Х╞╞Д©║Ф│╞
+
 
 
 /**
- * Log пео╒м╗ж╙  ╟ви╚
+ * Log Д©║Ф│╞И─ Г÷╔  Г≥╫Х┴╡
  */
 #define LOG_MSG(Format, ...) \
 { \
@@ -28,7 +29,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogMyTest, Log, All);
 }
 
 /**
- * Log Debug пео╒ гЮи╚
+ * Log Debug Д©║Ф│╞ И²▓Х┴╡
  */
 #define LOG_DEBUG(Format, ...) \
 { \
@@ -40,7 +41,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogMyTest, Log, All);
 
 
 /**
- * Log╬╞╦Ф ╩фи╚
+ * LogХ╜╕Е▒┼ И╩└Х┴╡
  */
 #define LOG_WARNING(Format, ...) \
 { \
@@ -51,7 +52,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogMyTest, Log, All);
 }
 
 /**
- * Log╢МнСпео╒ ╨Ли╚
+ * LogИ■≥Х╞╞Д©║Ф│╞ Г╨╒Х┴╡
  */
 #define LOG_ERROR(Format, ...) \
 { \
@@ -63,7 +64,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogMyTest, Log, All);
 
 
 /**
- * ж╩отй╬тзфад╩ио╣дм╗ж╙пео╒ ╟ви╚
+ * Е▐╙Ф≤╬Г╓╨Е°╗Е╠▐Е╧∙Д╦┼Г └И─ Г÷╔Д©║Ф│╞ Г≥╫Х┴╡
  */
 #define SCREEN_MSG(Format, ...) \
 { \
@@ -73,7 +74,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogMyTest, Log, All);
 
 
 /**
- * ж╩отй╬тзфад╩ио╣д Debug пео╒ гЮи╚
+ * Е▐╙Ф≤╬Г╓╨Е°╗Е╠▐Е╧∙Д╦┼Г └ Debug Д©║Ф│╞ И²▓Х┴╡
  */
 #define SCREEN_DEBUG(Format, ...) \
 { \
@@ -83,7 +84,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogMyTest, Log, All);
 
 
 /**
- * ж╩отй╬тзфад╩ио╣д ╬╞╦Ф пео╒ ╩фи╚
+ * Е▐╙Ф≤╬Г╓╨Е°╗Е╠▐Е╧∙Д╦┼Г └ Х╜╕Е▒┼ Д©║Ф│╞ И╩└Х┴╡
  */
 #define SCREEN_WARNING(Format, ...) \
 { \
@@ -94,7 +95,7 @@ DECLARE_LOG_CATEGORY_EXTERN(LogMyTest, Log, All);
 
 
 /**
- * ж╩отй╬тзфад╩ио╣д ╢МнС пео╒ ╨Ли╚
+ * Е▐╙Ф≤╬Г╓╨Е°╗Е╠▐Е╧∙Д╦┼Г └ И■≥Х╞╞ Д©║Ф│╞ Г╨╒Х┴╡
  */
 #define SCREEN_ERROR(Format, ...) \
 { \

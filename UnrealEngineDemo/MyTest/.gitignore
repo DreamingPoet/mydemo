@@ -30,7 +30,8 @@ Plugins/HttpLibrary/Intermediate/
 Plugins/JsonLibrary/Binaries/
 Plugins/JsonLibrary/Intermediate/
 
-
+Plugins/ESpectSDK/Binaries/
+Plugins/ESpectSDK/Intermediate/
 
 # -------------[ Pack ]------------------------ #
 
